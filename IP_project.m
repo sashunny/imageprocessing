@@ -1,5 +1,5 @@
 %importing the image
-image=imread('/home/ajsharma/Pictures/IP.jpg');
+image=imread('/home/Pictures/IP.jpg');
 img=rgb2gray(image);
 id=im2double(img);
 subplot(3,4,1);imshow(img);title('Original Image');
